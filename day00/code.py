@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 '''
-Solution for Day01 part 1
+Solution for Day00 part 1
+This is a generic file for all days.
+Copy this directory to the new day and part
 '''
 
 def main():
