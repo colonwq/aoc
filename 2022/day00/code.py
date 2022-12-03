@@ -11,12 +11,16 @@ def main():
     """Script entry point"""
     print("Hello World")
     answer = 0
+    #file_input = open(sys.argv[1], "r")
 
     try:
         file_input = open(sys.argv[1], "r")
-    except Exception as e:
-        print("Error opening file: ", e)
-        exit()
+    except IndexError as i_exception:
+        print("No file given: ", i_exception)
+        sys.exit()
+    except FileNotFoundError as f_exception:
+        print("File not found: ", f_exception)
+        sys.exit()
 
     for line in file_input:
         line = line.strip("\n")
