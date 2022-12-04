@@ -1,0 +1,43 @@
+#!/usr/bin/python3.6
+
+IF = open("day03.data")
+#IF = open("day03.example")
+gamma = 0
+epsilon = 0
+power = 0
+bits = [0,0,0,0,0,0,0,0,0,0,0,0]
+
+gamma1 = 0
+
+spot = 0
+
+for line in IF:
+  #print(line)
+  spot = 0
+  while spot < 12:
+    bit1 = int(line[spot])
+    if bit1 > 0:
+      bits[spot] += 1
+    else:
+      bits[spot] -= 1
+    spot += 1
+
+spot = 0
+while spot < 12:
+    if bits[spot] > 0:
+      print("Gamma[%d]: 1 Epsilon[%d]: 0" % (spot + 1 , spot + 1) )
+      gamma += 1
+    else:
+      print("Gamma[%d]: 0 Epsilon[%d]: 1" % (spot + 1, spot + 1 ) )
+      epsilon += 1
+    gamma = gamma << 1
+    epsilon = epsilon << 1
+    spot += 1
+
+gamma = gamma >> 1
+epsilon = epsilon >> 1
+
+print("Gamma: %d (%s)" % (gamma, str(bin(gamma))) )
+print("Epsilon: %d (%s)" % (epsilon, str(bin(epsilon)) ) )
+power = gamma * epsilon
+print( "Power: %d " % ( power ) )

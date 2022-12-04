@@ -1,0 +1,11 @@
+NR dep  A B C D State             Action
+ 1 199  A       NR > 0; NR%4 = 1  A += depth
+ 2 200  A B     NR > 1; NR%4 = 2  A += depth; B += depth
+ 3 208  A B C   NR > 2; NR%4 = 3  A += depth; B += depth; C += depth; Compare A to last
+ 4 210    B C D NR > 3; NR%4 = 0  A = 0; B += depth; C += depth; D += depth; Comapre B to last
+ 5 200  E   C D NR > 4; NR%4 = 1  A += depth; B = 0; C += depth; D += depth; Compare C to last
+ 6 207  E F   D NR > 5; NR%4 = 2  A += depth; B += depth; C = 0; D += depth; Compare D to last
+ 7 240  E F G   NR > 6; NR%4 = 3  A += depth; B += depth; C += depth; D = 0; Compare A to last
+ 8 269    F G H NR > 7; NR%4 = 0  A = 0; B += depth; C += depth; D += depth; Comapre B to last
+ 9 260      G H
+10 263        H

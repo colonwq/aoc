@@ -1,0 +1,257 @@
+Original POLY: ['S', 'V', 'C', 'H', 'K', 'V', 'F', 'K', 'C', 'S', 'H', 'V', 'F', 'N', 'B', 'K', 'K', 'P', 'O', 'C']
+Original poly pairs:  {'SV': 1, 'VC': 1, 'CH': 1, 'HK': 1, 'KV': 1, 'VF': 2, 'FK': 1, 'KC': 1, 'CS': 1, 'SH': 1, 'HV': 1, 'FN': 1, 'NB': 1, 'BK': 1, 'KK': 1, 'KP': 1, 'PO': 1, 'OC': 1}
+Translation Map
+{'NC': 'H', 'PK': 'V', 'SO': 'C', 'PH': 'F', 'FP': 'N', 'PN': 'B', 'NP': 'V', 'NK': 'S', 'FV': 'P', 'SB': 'S', 'VN': 'F', 'SC': 'H', 'OB': 'F', 'ON': 'O', 'HN': 'V', 'HC': 'F', 'SN': 'K', 'CB': 'H', 'OP': 'K', 'HP': 'H', 'KS': 'S', 'BC': 'S', 'VB': 'V', 'FC': 'B', 'BH': 'C', 'HH': 'O', 'KH': 'S', 'VF': 'F', 'PF': 'P', 'VV': 'F', 'PP': 'V', 'BO': 'H', 'BF': 'B', 'PS': 'K', 'FO': 'O', 'KF': 'O', 'FN': 'H', 'CK': 'B', 'VP': 'V', 'HK': 'F', 'OV': 'P', 'CS': 'V', 'FF': 'P', 'OH': 'N', 'VS': 'H', 'VO': 'O', 'CP': 'O', 'KC': 'V', 'KV': 'P', 'BK': 'B', 'VK': 'S', 'NF': 'V', 'OO': 'V', 'FH': 'H', 'CN': 'O', 'SP': 'B', 'KN': 'V', 'OF': 'H', 'NV': 'H', 'FK': 'B', 'PV': 'N', 'NB': 'B', 'KK': 'P', 'VH': 'P', 'CC': 'B', 'HV': 'V', 'OC': 'H', 'PO': 'V', 'NO': 'O', 'BP': 'C', 'NH': 'H', 'BN': 'O', 'BV': 'S', 'CV': 'B', 'HS': 'O', 'NN': 'S', 'NS': 'P', 'KB': 'F', 'CO': 'H', 'HO': 'P', 'PB': 'B', 'BS': 'P', 'SH': 'H', 'FS': 'V', 'SF': 'O', 'OK': 'F', 'KP': 'S', 'BB': 'C', 'PC': 'B', 'OS': 'C', 'SV': 'N', 'SK': 'K', 'KO': 'C', 'SS': 'V', 'CF': 'C', 'HB': 'K', 'VC': 'B', 'CH': 'P', 'HF': 'K', 'FB': 'V'}
+Poly pair map
+ {'SK': 70647318525, 'KK': 35259281562, 'KP': 207468517122, 'PK': 47556395116, 'KS': 267198603149, 'SP': 103703748518, 'PV': 778917017031, 'VK': 23748068327, 'SS': 185301192904, 'SB': 103604338047, 'BP': 111786749358, 'PN': 389496159118, 'NV': 520532760482, 'VS': 111366317643, 'SV': 94310711237, 'BC': 236493913731, 'CP': 123795180416, 'PB': 389615496407, 'BN': 194771363033, 'NH': 1160035596690, 'HV': 620089504238, 'VH': 55626605527, 'HS': 55626605527, 'SN': 47114349301, 'BS': 119944726857, 'SC': 118222500722, 'CO': 85883639445, 'OP': 356030635418, 'BB': 267581313788, 'BO': 97400064087, 'ON': 834224759310, 'HH': 1127866853718, 'VV': 586212092997, 'VP': 433807901861, 'PH': 95704330069, 'HO': 683349853639, 'OS': 27778927732, 'KN': 23532003682, 'PS': 59953802221, 'SH': 118134675854, 'HC': 66017130068, 'CH': 135888566286, 'OK': 178020920185, 'CB': 137243132527, 'BH': 48708813906, 'OO': 1176357684020, 'OH': 639390464504, 'VF': 648063812117, 'FV': 346380079408, 'PF': 420114604943, 'FH': 294257193138, 'HP': 683274674705, 'PO': 341654582917, 'OC': 13868659074, 'CS': 13868659074, 'KV': 23745627876, 'VN': 61422911453, 'HF': 158149381947, 'FC': 32990761132, 'OF': 137075047378, 'FK': 145651455222, 'HB': 68615471565, 'OV': 588242923918, 'VO': 1518281887938, 'FF': 324163211225, 'FP': 335384243584, 'PP': 210133297424, 'CV': 6921799260, 'FN': 198480405534, 'HK': 113336481703, 'KF': 96181765907, 'FB': 106440474274, 'BK': 145544611745, 'KB': 34303434602, 'NP': 167760736840, 'BV': 3453393142, 'HN': 99287142582, 'KO': 48062309493, 'VB': 118281288436, 'KC': 24012988992, 'VC': 11995023290, 'NB': 1}
+Looking at pair: SK
+First atom: S
+Looking at pair: KK
+First atom: K
+Looking at pair: KP
+First atom: K
+Already found K 35259281562 times
+Looking at pair: PK
+First atom: P
+Looking at pair: KS
+First atom: K
+Already found K 242727798684 times
+Looking at pair: SP
+First atom: S
+Already found S 70647318525 times
+Looking at pair: PV
+First atom: P
+Already found P 47556395116 times
+Looking at pair: VK
+First atom: V
+Looking at pair: SS
+First atom: S
+Already found S 174351067043 times
+Looking at pair: SB
+First atom: S
+Already found S 359652259947 times
+Looking at pair: BP
+First atom: B
+Looking at pair: PN
+First atom: P
+Already found P 826473412147 times
+Looking at pair: NV
+First atom: N
+Looking at pair: VS
+First atom: V
+Already found V 23748068327 times
+Looking at pair: SV
+First atom: S
+Already found S 463256597994 times
+Looking at pair: BC
+First atom: B
+Already found B 111786749358 times
+Looking at pair: CP
+First atom: C
+Looking at pair: PB
+First atom: P
+Already found P 1215969571265 times
+Looking at pair: BN
+First atom: B
+Already found B 348280663089 times
+Looking at pair: NH
+First atom: N
+Already found N 520532760482 times
+Looking at pair: HV
+First atom: H
+Looking at pair: VH
+First atom: V
+Already found V 135114385970 times
+Looking at pair: HS
+First atom: H
+Already found H 620089504238 times
+Looking at pair: SN
+First atom: S
+Already found S 557567309231 times
+Looking at pair: BS
+First atom: B
+Already found B 543052026122 times
+Looking at pair: SC
+First atom: S
+Already found S 604681658532 times
+Looking at pair: CO
+First atom: C
+Already found C 123795180416 times
+Looking at pair: OP
+First atom: O
+Looking at pair: BB
+First atom: B
+Already found B 662996752979 times
+Looking at pair: BO
+First atom: B
+Already found B 930578066767 times
+Looking at pair: ON
+First atom: O
+Already found O 356030635418 times
+Looking at pair: HH
+First atom: H
+Already found H 675716109765 times
+Looking at pair: VV
+First atom: V
+Already found V 190740991497 times
+Looking at pair: VP
+First atom: V
+Already found V 776953084494 times
+Looking at pair: PH
+First atom: P
+Already found P 1605585067672 times
+Looking at pair: HO
+First atom: H
+Already found H 1803582963483 times
+Looking at pair: OS
+First atom: O
+Already found O 1190255394728 times
+Looking at pair: KN
+First atom: K
+Already found K 509926401833 times
+Looking at pair: PS
+First atom: P
+Already found P 1701289397741 times
+Looking at pair: SH
+First atom: S
+Already found S 722904159254 times
+Looking at pair: HC
+First atom: H
+Already found H 2486932817122 times
+Looking at pair: CH
+First atom: C
+Already found C 209678819861 times
+Looking at pair: OK
+First atom: O
+Already found O 1218034322460 times
+Looking at pair: CB
+First atom: C
+Already found C 345567386147 times
+Looking at pair: BH
+First atom: B
+Already found B 1027978130854 times
+Looking at pair: OO
+First atom: O
+Already found O 1396055242645 times
+Looking at pair: OH
+First atom: O
+Already found O 2572412926665 times
+Looking at pair: VF
+First atom: V
+Already found V 1210760986355 times
+Looking at pair: FV
+First atom: F
+Looking at pair: PF
+First atom: P
+Already found P 1761243199962 times
+Looking at pair: FH
+First atom: F
+Already found F 346380079408 times
+Looking at pair: HP
+First atom: H
+Already found H 2552949947190 times
+Looking at pair: PO
+First atom: P
+Already found P 2181357804905 times
+Looking at pair: OC
+First atom: O
+Already found O 3211803391169 times
+Looking at pair: CS
+First atom: C
+Already found C 482810518674 times
+Looking at pair: KV
+First atom: K
+Already found K 533458405515 times
+Looking at pair: VN
+First atom: V
+Already found V 1858824798472 times
+Looking at pair: HF
+First atom: H
+Already found H 3236224621895 times
+Looking at pair: FC
+First atom: F
+Already found F 640637272546 times
+Looking at pair: OF
+First atom: O
+Already found O 3225672050243 times
+Looking at pair: FK
+First atom: F
+Already found F 673628033678 times
+Looking at pair: HB
+First atom: H
+Already found H 3394374003842 times
+Looking at pair: OV
+First atom: O
+Already found O 3362747097621 times
+Looking at pair: VO
+First atom: V
+Already found V 1920247709925 times
+Looking at pair: FF
+First atom: F
+Already found F 819279488900 times
+Looking at pair: FP
+First atom: F
+Already found F 1143442700125 times
+Looking at pair: PP
+First atom: P
+Already found P 2523012387822 times
+Looking at pair: CV
+First atom: C
+Already found C 496679177748 times
+Looking at pair: FN
+First atom: F
+Already found F 1478826943709 times
+Looking at pair: HK
+First atom: H
+Already found H 3462989475407 times
+Looking at pair: KF
+First atom: K
+Already found K 557204033391 times
+Looking at pair: FB
+First atom: F
+Already found F 1677307349243 times
+Looking at pair: BK
+First atom: B
+Already found B 1076686944760 times
+Looking at pair: KB
+First atom: K
+Already found K 653385799298 times
+Looking at pair: NP
+First atom: N
+Already found N 1680568357172 times
+Looking at pair: BV
+First atom: B
+Already found B 1222231556505 times
+Looking at pair: HN
+First atom: H
+Already found H 3576325957110 times
+Looking at pair: KO
+First atom: K
+Already found K 687689233900 times
+Looking at pair: VB
+First atom: V
+Already found V 3438529597863 times
+Looking at pair: KC
+First atom: K
+Already found K 735751543393 times
+Looking at pair: VC
+First atom: V
+Already found V 3556810886299 times
+Looking at pair: NB
+First atom: N
+Already found N 1848329094012 times
+Adding 1 for B
+Atom counts:
+Atom: S Count: 841038835108
+Atom: K Count: 759764532385
+Atom: P Count: 2733145685246
+Atom: V Count: 3568805909589
+Atom: B Count: 1225684949648
+Atom: N Count: 1848329094013
+Atom: C Count: 503600977008
+Atom: H Count: 3675613099692
+Atom: O Count: 3950990021539
+Atom: F Count: 1783747823517
+values:  [841038835108, 759764532385, 2733145685246, 3568805909589, 1225684949648, 1848329094013, 503600977008, 3675613099692, 3950990021539, 1783747823517]
+Max 3950990021539	Min: 503600977008
+Answer: 3447389044531

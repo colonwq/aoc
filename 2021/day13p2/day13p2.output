@@ -1,0 +1,47 @@
+Max X: 1310
+Max Y: 889
+Number of commands: 12
+Command:  {'direction': 'x', 'target': 655}
+Fold left
+Need to fold along column 655
+Command:  {'direction': 'y', 'target': 447}
+Need to fold along row 447
+Command:  {'direction': 'x', 'target': 327}
+Fold left
+Need to fold along column 327
+Command:  {'direction': 'y', 'target': 223}
+Need to fold along row 223
+Command:  {'direction': 'x', 'target': 163}
+Fold left
+Need to fold along column 163
+Command:  {'direction': 'y', 'target': 111}
+Need to fold along row 111
+Command:  {'direction': 'x', 'target': 81}
+Fold left
+Need to fold along column 81
+Command:  {'direction': 'y', 'target': 55}
+Need to fold along row 55
+Command:  {'direction': 'x', 'target': 40}
+Fold left
+Need to fold along column 40
+Command:  {'direction': 'y', 'target': 27}
+Need to fold along row 27
+Command:  {'direction': 'y', 'target': 13}
+Need to fold along row 13
+Command:  {'direction': 'y', 'target': 6}
+Need to fold along row 6
+Total dots seen: 90
+[10.0, 0.0, 0.0, 7.0, 0.0, 2.0, 13.0, 37.0, 7.0, 0.0, 1.0, 1.0, 1.0, 7.0, 0.0, 26.0, 2.0, 20.0, 31.0, 0.0, 0.0, 1.0, 16.0, 0.0, 0.0, 2.0, 0.0, 0.0, 13.0, 0.0, 0.0, 6.0, 12.0, 0.0, 0.0, 0.0, 0.0, 2.0, 5.0, 0.0]
+[12.0, 0.0, 0.0, 5.0, 0.0, 10.0, 0.0, 0.0, 0.0, 0.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 8.0, 0.0, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 9.0, 0.0, 13.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 11.0, 0.0]
+[4.0, 0.0, 0.0, 16.0, 0.0, 24.0, 5.0, 8.0, 0.0, 0.0, 21.0, 17.0, 3.0, 0.0, 0.0, 0.0, 0.0, 9.0, 0.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 17.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0]
+[1.0, 0.0, 0.0, 14.0, 0.0, 12.0, 0.0, 0.0, 0.0, 0.0, 19.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 9.0, 0.0, 0.0, 3.0, 0.0, 21.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+[5.0, 0.0, 0.0, 15.0, 0.0, 8.0, 0.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 27.0, 0.0, 0.0, 4.0, 0.0, 18.0, 0.0, 0.0, 4.0, 0.0, 1.0, 0.0, 0.0, 17.0, 0.0, 8.0, 0.0, 0.0, 17.0, 0.0]
+[0.0, 20.0, 2.0, 0.0, 0.0, 1.0, 10.0, 13.0, 15.0, 0.0, 10.0, 0.0, 0.0, 0.0, 0.0, 6.0, 6.0, 3.0, 2.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 5.0, 19.0, 0.0, 0.0, 0.0, 4.0, 4.0, 0.0, 0.0, 0.0, 8.0, 7.0, 0.0, 0.0]
+Final number of rows: 6
+Final Number of columns: 40
+#  # #### #### ####  ##  #  #  ##    ## 
+#  # #    #       # #  # #  # #  #    # 
+#  # ###  ###    #  #    #  # #       # 
+#  # #    #     #   #    #  # #       # 
+#  # #    #    #    #  # #  # #  # #  # 
+ ##  #### #    ####  ##   ##   ##   ##  
