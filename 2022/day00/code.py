@@ -11,7 +11,6 @@ def main():
     """Script entry point"""
     print("Hello World")
     answer = 0
-    #file_input = open(sys.argv[1], "r")
 
     try:
         file_input = open(sys.argv[1], "r")
@@ -22,9 +21,9 @@ def main():
         print("File not found: ", f_exception)
         sys.exit()
 
-    for line in file_input:
-        line = line.strip("\n")
-        print("Line: %s"% (line) )
+    lines = file_input.read().split("\n")
+    for line in lines:
+        print("Line: %s" %(line) )
 
     print("Answer %d" % (answer) )
 
