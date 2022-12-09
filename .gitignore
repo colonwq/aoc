@@ -1,1 +1,3 @@
 data/stats-data-cached.txt
+data/*
+.vscode
