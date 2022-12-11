@@ -21,7 +21,7 @@ def main():
         print("File not found: ", f_exception)
         sys.exit()
 
-    lines = file_input.read().split("\n")
+    lines = file_input.read().splitlines()
     for line in lines:
         print("Line: %s" %(line) )
 
