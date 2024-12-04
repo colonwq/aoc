@@ -9,7 +9,9 @@ import argparse
 import sys
 
 def p1(input=None, debug=False):
-    print("Part 1")
+    if debug:
+        print("Part 1")
+    answer1 = 0
     lines = []
     if input:
         lines = input.read().splitlines()
@@ -17,36 +19,32 @@ def p1(input=None, debug=False):
         for line in lines:
             if debug:
               print("Line: %s" %(line) )
+    print(f"Answer 1: {answer1}")
 
 def p2(input=None, debug=False):
-    print("Part 2")
+    if debug:
+        print("Part 2")
+    answer2 = 0
     lines = []
     if input:
         lines = input.read().splitlines()
         for line in lines:
             if debug:
               print("Line: %s" %(line) )
+    print(f"Answer 2: {answer2}")
 
 def main():
     """Script entry point"""
-    print("Hello World")
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--file", "-f", nargs='?', default="../data/00.txt", help="Input data file")
     parser.add_argument("--debug", "-d", help="Enable debuging", action="store_true")
     parser.add_argument("-p1", help="Do part 1", action="store_true")
-    parser.add_argument("-1", help="Do part 1", action="store_true")
     parser.add_argument("-p2", help="Do part 2", action="store_true")
     args = parser.parse_args()
 
-    answer = 0
-
-    print(f"Parser: {args}")
-
     if args.file:
         print(f"Input file: {args.file}")
-        if args.p1:
-            print(f"Do part 1")
         try:
             file_input = open(args.file, "r")
         except IndexError as i_exception:
@@ -64,7 +62,7 @@ def main():
         p1(input=file_input, debug=args.debug)
         p2(input=file_input, debug=args.debug)
 
-    print("Answer %d" % (answer) )
+    file_input.close()
 
 if __name__ == "__main__":
     main()
